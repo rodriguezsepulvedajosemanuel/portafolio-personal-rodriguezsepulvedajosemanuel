@@ -9,7 +9,7 @@
 <title>RODRIGUEZ SEPULVEDA JOSE MANUEL · Portafolio</title>
 <meta name="description" content="Portafolio de RODRIGUEZ SEPULVEDA JOSE MANUEL — Aplicaciones Web, Django + MySQL + Tailwind + Render.">
 <link rel="icon" href="data:,">
-<script src="./Portafolio personal_files/saved_resource"></script>
+<script src="https://cdn.tailwindcss.com"></script>
 <script>
   tailwind.config = {
     theme: {
@@ -41,9 +41,8 @@
 <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
-      <a href="#inicio" class="font-extrabold text-brand-700">
-        <!-- EDITA AQUI: puedes cambiar "AW" por tus iniciales -->
-        RSJM
+      <a href="#inicio" class="flex items-center">
+        <img src="Logo.png" alt="Logo Zenith Apps" class="h-10 w-auto object-contain" style="height:40px;width:auto;object-fit:contain">
       </a>
       <nav class="hidden sm:flex items-center gap-6 text-sm font-medium text-slate-600">
         <a href="#sobre-mi" class="hover:text-brand-700">Sobre mí</a>
@@ -120,7 +119,7 @@
 <section id="proyecto" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
   <p class="text-brand-600 font-semibold text-xs uppercase tracking-wide">Proyecto Integrador</p>
   <!-- EDITA AQUI: pon el nombre que le diste a tu proyecto -->
-  <h2 class="text-2xl font-extrabold mt-1">Django + MySQL en Render</h2>
+  <h2 class="text-2xl font-extrabold mt-1">Django + MySQL en la nube</h2>
   <!-- EDITA AQUI: describe en 2-4 líneas qué hace tu proyecto y qué problema resuelve -->
   <p class="mt-4 text-slate-600 max-w-2xl">
     Este proyecto consiste en un CRUD creado con Django y HTML5 Semántico.
@@ -129,7 +128,9 @@
   <div class="mt-8 rounded-2xl border border-slate-200 overflow-hidden">
     <!-- EDITA AQUI: reemplaza por una captura de pantalla real de tu proyecto -->
     <!-- <img src="captura-proyecto.png" class="w-full object-cover" alt="Captura de mi proyecto"> -->
+    <div class="mt-8 rounded-2xl border border-slate-200 overflow-hidden">
     <img src="Captura proyecto.png" class="w-full object-cover" alt="Captura de mi proyecto">
+</div>
   </div>
 
   <div class="mt-6">
@@ -154,6 +155,7 @@
       <li class="rounded-xl bg-white/5 border border-white/10 p-5 hover:bg-white/10 transition">
         <p class="text-xs font-bold text-orange-300 uppercase">Unidad 1</p>
         <p class="font-semibold mt-1">Portafolio estático (HTML + Tailwind)</p>
+        <a href="https://portafolio-rsjm.onrender.com" class="text-sm text-brand-300 hover:underline mt-2 inline-block break-all">https://portafolio-rsjm.onrender.com</a>
         <a href="https://ine-personal-rsjm.onrender.com" class="text-sm text-brand-300 hover:underline mt-2 inline-block break-all">https://ine-personal-rsjm.onrender.com</a>
       </li>
       <li class="rounded-xl bg-white/5 border border-white/10 p-5 hover:bg-white/10 transition">
